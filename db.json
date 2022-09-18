@@ -1,16 +1,81 @@
 {
-  "posts":[
+  "posts": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
+      "likes": 2,
+      "id": 1,
+      "title": "React",
+      "body": "React Library",
+      "photo": "https://pbs.twimg.com/card_img/1568018591441526784/1BwnT2CP?format=png&name=medium",
+      "comments": [
+        {
+          "postedBy": "sumit",
+          "commentText": "React is a javascript library"
+        },
+        {
+          "postedBy": "rohit",
+          "commentText": "Open source library"
+        },
+        {
+          "postedBy": "Roshan",
+          "commentText": "React version 18"
+        }
+      ]
+    },
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "likes": 1,
+      "id": 2,
+      "title": "Angular",
+      "body": "Angular Framework",
+      "photo": "https://repository-images.githubusercontent.com/24195339/87018c00-694b-11e9-8b5f-c34826306d36",
+      "comments": [
+        {
+          "postedBy": "amit",
+          "commentText": "Angular is a javascript library"
+        },
+        {
+          "postedBy": "neha",
+          "commentText": "Open source library"
+        },
+        {
+          "postedBy": "sonu",
+          "commentText": "Angular is supported by google"
+        }
+      ]
+    },
+    {
+      "likes": 5,
+      "id": 3,
+      "title": "JavaScript",
+      "body": "JavaScript is a lightweight, interpreted programming language.",
+      "photo": "https://cdn.geekboots.com/geek/javascript-meta-1652702081069.jpg",
+      "comments": [
+        {
+          "postedBy": "Akshay",
+          "commentText": "Javascript is the most popular programming language"
+        },
+        {
+          "postedBy": "Rohit",
+          "commentText": "JavaScript was built by Brendan Eich"
+        }
+      ]
+    },
+    {
+      "likes": 5,
+      "id": 4,
+      "title": "Nature",
+      "body": "Nature Photo",
+      "photo": "https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg",
+      "comments": [
+        {
+          "postedBy": "Chandan",
+          "commentText": "Beautifull..."
+        },
+        {
+          "postedBy": "Amam",
+          "commentText": "Nice"
+        }
+      ]
     }
+ 
   ]
 }
